@@ -5,16 +5,16 @@ body {
 
 h1 {
     text-align: center;
-    color: #333;
+    color:black;
 }
 
 form {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: pink;
+    background-color: aquamarine;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px;
 }
 
 input[type="text"],
@@ -48,10 +48,28 @@ textarea {
     resize: vertical;
 }
 
-input[type="submit"],
-input[type="reset"],
+input[type="submit"] {
+    background-color: rgb(27, 176, 82); 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="reset"] {
+    background-color: rgb(238, 18, 18); 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
 input[type="checkbox"] {
-    background-color: grey;
+    background-color: rgb(27, 176, 82); 
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -63,7 +81,7 @@ input[type="checkbox"] {
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="checkbox"]:hover {
-    background-color: grey;
+    background-color: black; 
 }
 
 .error-message {
